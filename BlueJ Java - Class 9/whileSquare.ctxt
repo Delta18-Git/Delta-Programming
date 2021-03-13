@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=whileSquare
+comment0.text=\r\n\ A\ class\ using\ a\ while\ loop\ to\ input\ a\ set\ of\ numbers\ and\ print\ their\ square.\r\n\ The\ program\ should\ execute\ till\ the\ user\ enters\ a\ zero.\ \r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (28/01/2021)\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
