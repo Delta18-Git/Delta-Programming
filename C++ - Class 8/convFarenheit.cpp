@@ -1,3 +1,4 @@
+//VS02
 #include <iostream.h>
 
 int main()

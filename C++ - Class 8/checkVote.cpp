@@ -1,3 +1,4 @@
+//VS0d
 #include <iostream.h>
 
 int main()
