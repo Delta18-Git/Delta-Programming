@@ -1,0 +1,22 @@
+#BlueJ package file
+package.editor.height=572
+package.editor.width=1248
+package.editor.x=-8
+package.editor.y=-8
+package.numDependencies=0
+package.numTargets=2
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.height=62
+target1.name=ClassIX
+target1.type=PackageTarget
+target1.width=80
+target1.x=70
+target1.y=0
+target2.height=62
+target2.name=ClassX
+target2.type=PackageTarget
+target2.width=80
+target2.x=160
+target2.y=0
