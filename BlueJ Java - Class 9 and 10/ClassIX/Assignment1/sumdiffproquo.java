@@ -1,4 +1,4 @@
-package Assignment1;
+package ClassIX.Assignment1;
 
 /** 
 * A program to do the 4 tasks in the 3rd question of the assignment 
