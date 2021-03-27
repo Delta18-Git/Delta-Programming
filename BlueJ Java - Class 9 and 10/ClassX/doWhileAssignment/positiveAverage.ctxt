@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=positiveAverage
+comment0.text=\r\n\ A\ program\ to\ find\ the\ average\ of\ positive\ numbers\ entered\ by\ the\ user.\r\n\ The\ program\ should\ terminate\ when\ a\ negative\ number\ is\ entered.\ \r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (27/03/12021\ HE)\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2

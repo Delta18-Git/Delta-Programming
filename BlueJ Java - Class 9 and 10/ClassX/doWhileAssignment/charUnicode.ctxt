@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=charUnicode
+comment0.text=\r\n\ \ Write\ a\ program\ to\ accept\ alphabets\ and\ display\ its\ Unicode\ value.\ \r\n\ \ The\ program\ should\ terminate\ when\ a\ vowel\ is\ entered.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (27/03/12021\ HE)\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
