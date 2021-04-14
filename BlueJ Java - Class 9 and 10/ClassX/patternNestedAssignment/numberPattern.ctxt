@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=numberPattern
+comment0.text=\r\n\ A\ program\ to\ print\ in\ the\ sequece\ of\ 1*n\ 2*x\ 3*x\ 4*x\ 5*x.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (13/04/12021\ HE)\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
