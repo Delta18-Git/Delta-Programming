@@ -1,3 +1,5 @@
+package ClassIX;
+
 import java.util.Scanner;
 /**
  * A class to find the sum of all factors of a number.

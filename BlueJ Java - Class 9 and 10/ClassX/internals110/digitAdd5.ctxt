@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=digitAdd5
+comment0.text=\r\n\ Write\ a\ program\ to\ find\ the\ sum\ of\ digits\ in\ a\ number.\ \r\n\ \r\n\ @author\ (Vinaayak\ G\ Dasika)\ \r\n\ @version\ (27/5/2021)\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=floydTriangle8
+comment0.text=\r\n\ Write\ a\ program\ to\ display\ Floyd\u2019s\ Triangle.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (28/05/2021)\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
