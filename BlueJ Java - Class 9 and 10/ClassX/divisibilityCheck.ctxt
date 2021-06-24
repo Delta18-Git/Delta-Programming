@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=divisibilityCheck
+comment0.text=\r\n\ Write\ a\ program\ to\ check\ if\ num1\ is\ divisible\ by\ num2.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (24/6/2021)\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ accept()
+comment3.params=
+comment3.target=boolean\ check()
+numComments=4
