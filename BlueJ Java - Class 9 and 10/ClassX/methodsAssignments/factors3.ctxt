@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=factors3
+comment0.text=\r\n\ Write\ a\ program\ to\ print\ all\ the\ factors\ of\ a\ number.\ \r\n\ The\ program\ should\ have\ the\ following\ functions\:\ \r\n\ void\ accept()\ \r\n\ void\ printfactors()\ \r\n\ void\ main()\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=
+comment2.target=void\ accept()
+comment3.params=
+comment3.target=void\ printfactors()
+numComments=4

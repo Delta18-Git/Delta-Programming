@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=discountedCalc
+comment0.text=\r\n\ Write\ a\ program\ to\ calculate\ the\ discounted\ price\ in\ a\ bookfair\ as\ per\ the\ specifications\ given,\r\n\ Variables\:\ String\ Bname\ \u2013\ stores\ the\ name\ of\ the\ book.\r\n\ double\ price\ \u2013\ stores\ the\ price\ of\ the\ book.\r\n\ Methods\:\r\n\ (i)\ void\ Input()\ \u2013\ to\ input\ and\ store\ the\ name\ and\ the\ price\ of\ the\ book.\r\n\ (ii)\ void\ calculate()\ \u2013\ To\ calculate\ the\ price\ after\ discount.\ \r\n\ Discount\ is\ calculated\ based\ on\ the\ following\ criteria.\r\n\ Price\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Discount\r\n\ Less\ than\ or\ equal\ to\ 1000\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 2%\ of\ the\ price\r\n\ More\ than\ 1000\ and\ less\ than\ or\ equal\ to\ 3000\ \ \ \ \ 10%\ of\ the\ price\r\n\ More\ than\ 3000\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 15%\ of\ the\ price\r\n\ (iii)\ void\ display()\ \u2013\ To\ display\ the\ name\ and\ price\ of\ the\ book\ after\ discount.\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ input()
+comment2.params=
+comment2.target=void\ calculate()
+comment3.params=
+comment3.target=void\ display()
+comment4.params=
+comment4.target=void\ main()
+numComments=5

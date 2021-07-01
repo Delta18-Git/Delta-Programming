@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ParkingLot
+comment0.text=\r\n\ \r\n\ Write\ a\ program\ to\ calculate\ the\ bill\ amount\ for\ a\ parking\ lot.\r\n\ Class\ Name\:\ ParkingLot\r\n\ Variables\ \:\ \r\n\ int\ vno\ \u2013\ to\ store\ the\ vehicle\ number\ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ int\ hrs\ \u2013\ to\ store\ the\ number\ of\ hours\ the\ vehicle\ is\ parked\ in\ the\ parking\ lot\ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ double\ bill\ \u2013\ to\ store\ the\ bill\ amount\r\n\ Methods\:\r\n\ void\ input()\ \u2013\ To\ input\ and\ store\ the\ vno\ and\ hrs.\r\n\ void\ calculate()\ \u2013\ To\ compute\ the\ parking\ charges\ at\ the\ rate\ of\ 3\ for\ the\ first\ hour\ and\ 1.50\ for\ each\ additional\ hour\ there\ after.\r\n\ void\ display()\ \u2013\ To\ display\ the\ detail.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ input()
+comment2.params=
+comment2.target=void\ calculate()
+comment3.params=
+comment3.target=void\ display()
+comment4.params=
+comment4.target=void\ main()
+numComments=5
