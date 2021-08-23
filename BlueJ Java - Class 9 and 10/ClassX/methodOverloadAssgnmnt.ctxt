@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=methodOverloadAssgnmnt
+comment0.text=\r\n\ Write\ a\ Single\ program\ with\ the\ following\ functions.\ Call\ all\ the\ functions\ in\ main(\ )\r\n\ void\ show(int\ i)\ -\ to\ Print\ the\ factorial\ of\ i\r\n\ void\ show(int\ a,\ int\ b)\ -\ to\ Print\ the\ values\ from\ a\ to\ b\r\n\ void\ show(char\ a,\ int\ m)\ -\ to\ print\ the\ mth\ character\ from\ a.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (30/07/2021)\r\n
+comment1.params=
+comment1.target=void\ main()
+comment2.params=i
+comment2.target=void\ show(int)
+comment3.params=a\ b
+comment3.target=void\ show(int,\ int)
+comment4.params=a\ m
+comment4.target=void\ show(char,\ int)
+numComments=5
