@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Bill
+comment0.text=\r\n\ Write\ a\ class\ Bill\ that\ calculates\ the\ telephone\ bill\ of\ a\ customer.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Bill()
+comment2.params=b\ n\ c
+comment2.target=Bill(int,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ Calculate()
+comment4.params=
+comment4.target=void\ Display()
+comment5.params=
+comment5.target=void\ main()
+numComments=6

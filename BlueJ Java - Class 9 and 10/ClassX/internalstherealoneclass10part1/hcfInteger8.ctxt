@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=hcfInteger8
+comment0.text=\r\n\ Write\ a\ program\ print\ the\ HCF\ of\ two\ integers\ using\ the\ following\ 3\ functions\ in\ the\ program.\ \u0000\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ accept()
+comment2.params=
+comment2.target=int\ HCF()
+comment3.params=
+comment3.target=void\ main()
+numComments=4

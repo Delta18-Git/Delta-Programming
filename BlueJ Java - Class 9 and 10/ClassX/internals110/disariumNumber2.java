@@ -7,7 +7,7 @@ import java.util.*;
  * @author (Vinaayak G Dasika)
  * @version (22/05/2021)
  */
-public class disariumNumber2
+class disariumNumber2
 {
     void main()
     {
