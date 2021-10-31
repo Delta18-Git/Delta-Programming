@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author (Vinaayak G Dasika) 
  * @version (18/3/12021 HE)
  */
-public class palindromeCheck4
+public class palindromeNumber4
 {
     void main()
     {

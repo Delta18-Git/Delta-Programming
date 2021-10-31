@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=palindromeCheck4
+comment0.target=palindromeNumber4
 comment0.text=\r\n\ Write\ a\ program\ to\ check\ if\ a\ number\ is\ a\ palindrome\ or\ not.\r\n\ \r\n\ @author\ (Vinaayak\ G\ Dasika)\ \r\n\ @version\ (18/3/12021\ HE)\r\n
 comment1.params=
 comment1.target=void\ main()
