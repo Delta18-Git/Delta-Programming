@@ -2,12 +2,12 @@ package ClassX.internalstherealoneclass10part1;
 import java.util.Scanner;
 
 /**
- * Write a program to print all the leap years from 1000 to n.
+ * Write a program to print all the leap years from 1000 to a number.
  *
  * @author (Vinaayak G Dasika)
  * @version (a version number or a date)
  */
-class leapYear7
+class LeapYear7
 {
     Scanner S = new Scanner(System.in);
     int n;

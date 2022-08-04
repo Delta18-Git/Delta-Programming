@@ -7,16 +7,16 @@ import java.util.*;
  * @author (Vinaayak G Dasika)
  * @version (27/05/2021)
  */
-public class fibonacciSeries3
+class FibonacciSeries3
 {
+    Scanner S = new Scanner(System.in); //Creates a Scanner for input of variables.   
     void main()
     {
-        Scanner S = new Scanner(System.in); //Creates a Scanner for input of variables.
-        int n1 = 0; //First number in series.
+        int n1 = 0; //First number in series. 
         int n2 = 1; //Second number in series.
         int n3; //Third number in series: Sum of previous two numbers
-        int end; //User-input number to run series to.
-        System.out.println("Enter no. to which series to be printed.");
+        int end; //User-input number to run series to.    
+        System.out.println("Enter number for stopping printing.");
         end = S.nextInt(); //Accepts input for end of series.
         System.out.print(n1 + ", " + n2); //Prints beginning of series.
         while ((n1 + n2) <= end) //Runs loop until n3 = end.

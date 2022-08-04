@@ -1,12 +1,10 @@
 #BlueJ class context
-comment0.target=smithNumber6
-comment0.text=\r\n\ Write\ a\ program\ to\ input\ a\ number\ and\ check\ if\ it\ is\ a\ SMITH\ number\ or\ not.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=n
+comment0.target=SmithNumber6
+comment0.text=\r\n\ Write\ a\ program\ to\ check\ if\ a\ number\ is\ a\ SMITH\ number\ or\ not.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n1
 comment1.target=int\ findSumPrimeFactors(int)
-comment2.params=n
+comment2.params=n2
 comment2.target=int\ findSumOfDigit(int)
-comment3.params=input
-comment3.target=boolean\ isPrime(int)
-comment4.params=
-comment4.target=void\ main()
-numComments=5
+comment3.params=
+comment3.target=void\ main()
+numComments=4

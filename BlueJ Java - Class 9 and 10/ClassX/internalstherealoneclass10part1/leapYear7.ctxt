@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.target=leapYear7
-comment0.text=\r\n\ Write\ a\ program\ to\ print\ all\ the\ leap\ years\ from\ 1000\ to\ n.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.target=LeapYear7
+comment0.text=\r\n\ Write\ a\ program\ to\ print\ all\ the\ leap\ years\ from\ 1000\ to\ a\ number.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=void\ accept()
 comment2.params=

@@ -1,7 +1,7 @@
 package ClassX.internalstherealoneclass10part1;
 import java.util.Scanner;
 /**
- * Write a class Bill that calculates the telephone bill of a customer.
+ * Write a program to calculate the telephone bill of a customer.
  *
  * @author (your name)
  * @version (a version number or a date)
@@ -18,14 +18,12 @@ class Bill
         name = "";
         amt = 0.0;
     }
-
     Bill(int b, String n, int c)
     {
         bno = b;
         name = n;
         call = c;
     }
-
     void Calculate()
     {
         int callcopy = call;
@@ -52,27 +50,25 @@ class Bill
             amt += 1.5 * callcopy;
         }
     }
-
     void Display()
     {
-        System.out.println("Name of Customer:" + name);
-        System.out.println("Bill Number:" + bno);
-        System.out.println("Number of Calls made:" + call);
-        System.out.println("Amount to pay:" + amt);
+        System.out.println("Name of Customer: " + name);
+        System.out.println("Bill Number: " + bno);
+        System.out.println("Number of Calls made: " + call);
+        System.out.println("Amount to pay: " + amt);
     }
-
     void main()
     {
-        int b, c;
-        String n;
+        int inb, inc;
+        String inn;
         Scanner S = new Scanner(System.in);
         System.out.println("Enter name");
-        n = S.nextLine();
+        inn = S.nextLine();
         System.out.println("Enter bill number");
-        b = S.nextInt();
+        inb = S.nextInt();
         System.out.println("Enter number of calls made");
-        c = S.nextInt();
-        Bill bill = new Bill(b, n, c);
+        inc = S.nextInt();
+        Bill bill = new Bill(inb, inn, inc);
         bill.Calculate();
         bill.Display();
     }
