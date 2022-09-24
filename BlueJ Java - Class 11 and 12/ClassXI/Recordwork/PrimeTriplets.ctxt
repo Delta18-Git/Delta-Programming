@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PrimeTriplets
+comment0.text=\r\n\ \r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (01/09/2022)\r\n
+comment1.params=
+comment1.target=void\ input()
+comment2.params=num
+comment2.target=boolean\ isPrime(int)
+comment3.params=
+comment3.target=void\ out()
+comment4.params=
+comment4.target=void\ main()
+numComments=5
