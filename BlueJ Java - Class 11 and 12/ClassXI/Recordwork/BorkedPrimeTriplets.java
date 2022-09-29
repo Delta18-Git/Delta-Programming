@@ -7,7 +7,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class CopyOfPrimeTriplets
+public class BorkedPrimeTriplets
 {
     int n;
     void input()
@@ -24,17 +24,17 @@ public class CopyOfPrimeTriplets
         boolean flag=true;
         for(int x = 1; x <= n; x++)
         {
-            if(x == 1)
-                continue;
-            if(x == 2)
-            {
-                System.out.print(x + " ");
-                c++;
-            }
             if(x % 2 == 0)
                 continue;
             if(x > 1)
             {
+                if(x == 1)
+                    continue;
+                if(x == 2)
+                {
+                    System.out.print(x + " ");
+                    c++;
+                }
                 for(j = 1; j <= x; j++)
                 {
                     if(x % j == 0)
@@ -67,7 +67,7 @@ public class CopyOfPrimeTriplets
 
     public static void main()
     {
-        CopyOfPrimeTriplets obj = new CopyOfPrimeTriplets();
+        BorkedPrimeTriplets obj = new BorkedPrimeTriplets();
         obj.input();
         obj.out();
     }
