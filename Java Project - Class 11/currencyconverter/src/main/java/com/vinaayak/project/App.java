@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import atlantafx.base.theme.*;
 import javafx.application.Application;
-
 import javafx.scene.Scene;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

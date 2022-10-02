@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.vinaayak.project</groupId>
 	<artifactId>currencyconverter</artifactId>
-	<version>0.0.1</version>
+	<version>1.0.0</version>
 	<properties>
-		<maven.compiler.source>18</maven.compiler.source>
-		<maven.compiler.target>18</maven.compiler.target>
+		<maven.compiler.source>19</maven.compiler.source>
+		<maven.compiler.target>19</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
 		<maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
@@ -35,12 +35,12 @@
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
-			<version>18.0.2</version>
+			<version>19</version>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-fxml</artifactId>
-			<version>18.0.2</version>
+			<version>19</version>
 		</dependency>
 		<dependency>
 			<groupId>io.github.mkpaz</groupId>
@@ -84,6 +84,29 @@
 					<mainClass>com.vinaayak.project.App</mainClass>
 				</configuration>
 			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.4.2</version>
+				<executions>
+								<execution>
+												<phase>package</phase>
+												<goals>
+																<goal>single</goal>
+												</goals>
+								</execution>
+				</executions>
+				<configuration>
+								<archive>
+												<manifest>
+																<mainClass>com.vinaayak.project.App</mainClass>
+												</manifest>
+								</archive>
+								<descriptorRefs>
+												<descriptorRef>jar-with-dependencies</descriptorRef>
+								</descriptorRefs>
+					</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 	<reporting>
