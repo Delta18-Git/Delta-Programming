@@ -13,14 +13,11 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<TitledPane fx:id="titlepane" alignment="TOP_CENTER" animated="false" collapsible="false" contentDisplay="CENTER" text="Currency Converter" textAlignment="CENTER" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<TitledPane fx:id="titlepane" alignment="TOP_CENTER" animated="false" collapsible="false" contentDisplay="CENTER" prefHeight="450.0" prefWidth="800.0" text="Currency Converter" textAlignment="CENTER" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vinaayak.project.App">
    <content>
-      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="255.0" prefWidth="576.0">
       <AnchorPane fx:id="anchor" minHeight="0.0" minWidth="0.0" prefHeight="450.0" prefWidth="800.0">
          <children>
-            <GridPane fx:id="gridpane1" prefHeight="182.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-               <columnConstraints>
-                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.80005645751953" minWidth="10.0" prefWidth="92.0" />
+            <StackPane fx:id="root" prefHeight="422.4" prefWidth="798.4" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                <children>
                   <GridPane fx:id="gridpane1">
                      <columnConstraints>
