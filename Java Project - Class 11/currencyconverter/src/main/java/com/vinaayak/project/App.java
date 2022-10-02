@@ -2,7 +2,6 @@ package com.vinaayak.project;
 
 import java.io.IOException;
 import java.math.BigDecimal;
-import atlantafx.base.theme.*;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.fxml.FXML;
@@ -110,7 +109,6 @@ public class App extends Application {
 
     public static void main(String[] args)
 	{
-        Application.setUserAgentStylesheet(new NordDark().getUserAgentStylesheet());
 		Application.launch(args);
     }
 

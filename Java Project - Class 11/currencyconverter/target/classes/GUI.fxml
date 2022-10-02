@@ -12,6 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
+<?import java.net.URL?>
 
 <TitledPane fx:id="titlepane" alignment="TOP_CENTER" animated="false" collapsible="false" contentDisplay="CENTER" prefHeight="450.0" prefWidth="800.0" text="Currency Converter" textAlignment="CENTER" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vinaayak.project.App">
    <content>
@@ -55,4 +56,7 @@
    <font>
       <Font name="Arial Bold" size="15.0" />
    </font>
+			<stylesheets>
+    <URL value="@/atlantafx/base/theme/nord-dark.css" />
+			</stylesheets>
 </TitledPane>

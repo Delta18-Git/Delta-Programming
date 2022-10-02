@@ -88,23 +88,23 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<version>3.4.2</version>
 				<executions>
-								<execution>
-												<phase>package</phase>
-												<goals>
-																<goal>single</goal>
-												</goals>
-								</execution>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
 				</executions>
 				<configuration>
-								<archive>
-												<manifest>
-																<mainClass>com.vinaayak.project.App</mainClass>
-												</manifest>
-								</archive>
-								<descriptorRefs>
-												<descriptorRef>jar-with-dependencies</descriptorRef>
-								</descriptorRefs>
-					</configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.vinaayak.project.AppStarter</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
 			</plugin>
 
 		</plugins>
