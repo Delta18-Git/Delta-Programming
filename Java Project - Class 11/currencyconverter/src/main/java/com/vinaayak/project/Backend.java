@@ -2,9 +2,12 @@ package com.vinaayak.project;
 
 import org.apache.logging.log4j.*;
 import org.apache.logging.log4j.core.config.*;
+import java.io.IOException;
+import java.io.InputStream;
 import java.math.BigDecimal;
 import kong.unirest.*;
 import kong.unirest.json.JSONObject;
+import java.util.Scanner;
 
 class JSGetException extends Exception
 {
@@ -20,9 +23,8 @@ class JSGetException extends Exception
 
 public class Backend
 {
-	public BigDecimal convert(String from, String to, double amt) throws JSGetException
+	public BigDecimal convert(String from, String to, BigDecimal input) throws JSGetException, IOException
 	{
-		BigDecimal input = BigDecimal.valueOf(amt);
 		JSONObject js = getJSON(from, to);
 		BigDecimal ratio = getRatio(js);
 		BigDecimal answer = ratio.multiply(input);
@@ -46,14 +48,18 @@ public class Backend
 			return BigDecimal.valueOf(0);
 		}
 	}
-	JSONObject getJSON(String from, String to) throws JSGetException
+	JSONObject getJSON(String from, String to) throws JSGetException, IOException
 	{
 		Logger logger = LogManager.getLogger(Backend.class);
 		Configurator.initialize(new DefaultConfiguration());
 		Configurator.setRootLevel(Level.INFO);
+		InputStream apiStream = getClass().getClassLoader().getResourceAsStream("api.txt");
+		Scanner scanner = new Scanner(apiStream);
 		String host = "https://joj-finance.p.rapidapi.com/ticker/";
 		String rapidapihost = "joj-finance.p.rapidapi.com";
-		String rapidapikey = "c7fca2b9bfmsh62fddd0bda2ea7ep16c137jsn1047201f0c7b";
+		String rapidapikey = scanner.useDelimiter("\\A").next();
+		scanner.close();
+		apiStream.close();
 		String url = host + "?t=" + from + "-" + to;
 		HttpResponse<JsonNode> response;
 		try
@@ -66,7 +72,6 @@ public class Backend
 		catch (UnirestException e)
 		{
 			logger.error("Failed to GET data. Connection string was: %s", url);
-			e.printStackTrace();
 			throw new JSGetException(e);
 		}
 		return response.getBody().getObject();
