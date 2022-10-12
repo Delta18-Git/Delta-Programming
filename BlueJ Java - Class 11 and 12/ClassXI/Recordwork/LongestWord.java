@@ -2,15 +2,15 @@ package ClassXI.Recordwork;
 import java.util.Scanner;
 
 /**
- * Write a program to enter a sentence and print the length of the smallest word(s) in that sentence.
+ * 
  * 
  *
  * @author (Vinaayak G Dasika)
  * @version (06/08/2022)
  */
-class LargestWord
+class LongestWord
 {
-    String str, large;
+    String str,large;
     void input()
     {
         Scanner S = new Scanner(System.in);
@@ -39,7 +39,7 @@ class LargestWord
     }
     public static void main(String[] args)
     {
-        LargestWord obj = new LargestWord();
+        LongestWord obj = new LongestWord();
         obj.input();
         obj.check();
     }

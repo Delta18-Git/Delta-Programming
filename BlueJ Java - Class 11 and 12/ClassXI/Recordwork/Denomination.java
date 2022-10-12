@@ -57,7 +57,7 @@ public class Denomination
         System.out.println("1 * " + one + " = " + one);
         System.out.println("Total = " + in);
     }
-    void main()
+    public static void main(String[] args)
     {
         Denomination obj = new Denomination();
         obj.input();

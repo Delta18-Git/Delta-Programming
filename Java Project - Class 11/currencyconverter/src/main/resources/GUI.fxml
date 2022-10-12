@@ -56,7 +56,4 @@
    <font>
       <Font name="Arial Bold" size="15.0" />
    </font>
-			<stylesheets>
-    <URL value="@/atlantafx/base/theme/nord-dark.css" />
-			</stylesheets>
 </TitledPane>

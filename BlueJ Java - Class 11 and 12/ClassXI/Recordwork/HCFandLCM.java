@@ -16,7 +16,7 @@ public class HCFandLCM
         small = Math.min(input1, input2);
         for(int i = 1; i <= small; i++)
         {
-            if(input1%i == 0 && input2%i == 0)
+            if(input1 % i == 0 && input2 % i == 0)
             {
                 hcf = i;
             }
@@ -27,7 +27,7 @@ public class HCFandLCM
     void input()
     {
         Scanner S = new Scanner(System.in);
-        System.out.println("Enter the numbers seperated by a space.");
+        System.out.println("Enter the numbers separated by a space.");
         input1 = S.nextInt();
         input2 = S.nextInt();
     }
@@ -36,7 +36,7 @@ public class HCFandLCM
         System.out.println("HCF of " + input1 + " and " + input2 + " = " + hcf);
         System.out.println("LCM of " + input1 + " and " + input2 + " = " + lcm);    
     }  
-    void main()
+    public static void main(String[] args)
     {
         HCFandLCM obj = new HCFandLCM();
         obj.input();

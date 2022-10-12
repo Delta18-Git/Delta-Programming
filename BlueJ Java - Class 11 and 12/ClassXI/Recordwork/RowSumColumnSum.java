@@ -11,7 +11,7 @@ public class RowSumColumnSum
 {
     int matrix[][];
     int p, q;
-    public static void main()
+    public static void main(String[] args)
     {
         RowSumColumnSum obj = new RowSumColumnSum();
         obj.input();
@@ -20,15 +20,15 @@ public class RowSumColumnSum
     void input()
     {
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter number of rows in matrix:");
+        System.out.print("Enter number of rows in matrix: ");
         p = s.nextInt();
-        System.out.print("Enter number of columns in matrix:");
+        System.out.print("Enter number of columns in matrix: ");
         q = s.nextInt();
         matrix = new int[p][q];
-        System.out.println("Enter all the elements of matrix:");
+        System.out.println("Enter all the elements of matrix: ");
         for (int i = 0; i < p; i++) 
         {
-            for (int j = 0; j < q; j++) 
+            for (int j = 0; j < q; j++)
             {
                 matrix[i][j] = s.nextInt();
             }
@@ -41,19 +41,18 @@ public class RowSumColumnSum
             int row = 0;
             for (int j = 0; j < q; j++) 
             {
-                row += matrix[i][j];
+                row += matrix[i][j]; //Row sum = sum of all elements in that row
             }
-            System.out.println("Row sum of row " + (i + 1) + " " + row);
+            System.out.println("Row sum of row " + (i + 1) + " = " + row);
         }
         for (int i = 0; i < q; i++) 
         {
             int column = 0;
             for (int j = 0; j < p; j++) 
             {
-                column += matrix[j][i];
+                column += matrix[j][i]; //Column sum == sum of all elements in that column
             }
-            System.out.println("Column sum of column " + (i + 1) + " " + column);
+            System.out.println("Column sum of column " + (i + 1) + " = " + column);
         }
     }
-
 }

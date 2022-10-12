@@ -2,7 +2,9 @@ package com.vinaayak.project;
 
 import java.io.IOException;
 import java.math.BigDecimal;
+import atlantafx.base.theme.NordDark;
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,11 +12,13 @@ import javafx.geometry.Insets;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.Event;
+import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.control.TitledPane;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderStroke;
@@ -52,8 +56,6 @@ public class App extends Application {
 
 	Backend convertInterface = new Backend();
 
-
-
     @Override
 	public void start(Stage stage) throws IOException
 	{
@@ -77,7 +79,6 @@ public class App extends Application {
 		amt.textProperty().addListener((observable, oldValue, newValue) -> {
 			try {
 				amt.getTextFormatter().getValueConverter().fromString(newValue);
-				// no exception above means valid
 				if (new BigDecimal(newValue).compareTo(BigDecimal.ZERO) < 0)
 					throw new NumberFormatException();
 				amt.setBorder(null);
@@ -92,24 +93,44 @@ public class App extends Application {
 	{
 		BigDecimal amount;
 		BigDecimal converted = BigDecimal.ZERO;
+		Alert alert = new Alert(AlertType.ERROR);
 		try {
 			amount = new BigDecimal(amt.getText()).abs();
 
-		} catch (NumberFormatException exp) {
+		} catch (NumberFormatException | NullPointerException amtException) {
+			alert.setAlertType(AlertType.WARNING);
+			alert.setContentText("No amount input for conversion.");
+			alert.show();
 			amount = BigDecimal.ZERO;
 		}
 		try {
 			converted = convertInterface.convert(from.getValue(), to.getValue(), amount);
-		} catch (JSGetException | IOException e1) {
-			e1.printStackTrace();
+		} catch (JSGetException | IOException getException) {
+			getException.printStackTrace();
+			alert.setContentText("Failed to GET exchange data.");
+			alert.show();
+		} catch (UnsupportedOperationException currencyException)
+		{
+			alert.setAlertType(AlertType.ERROR);
+			alert.setContentText("Incorrect currencies input for conversion.");
+			converted = BigDecimal.ZERO;
+			alert.show();
 		}
 		String convertedString = converted.toString();
+		if (convertedString.equals("0E-8"))
+			convertedString = "0";
 		result.setText(convertedString);
 	}
 
     public static void main(String[] args)
 	{
-		Application.launch(args);
+		try
+		{
+			Platform.startup(() -> {}); //Forcibly starts the JavaFX process
+		} finally
+		{
+			Application.setUserAgentStylesheet(new NordDark().getUserAgentStylesheet());
+			Application.launch(args);
+		}
     }
-
 }

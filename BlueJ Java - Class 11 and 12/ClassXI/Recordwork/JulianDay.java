@@ -22,8 +22,8 @@ public class JulianDay
     void calc()
     {
         if (year % 4 == 0)
-            leap = 29;
-        switch(mnth)
+            leap = 29; //Number of days in february if is a leap year
+        switch(mnth) //Add no. of day in previous months to day of month
         {
             case 1:
                 juli = day;
@@ -68,9 +68,9 @@ public class JulianDay
     }
     void display()
     {
-        System.out.println("The Julian Day is " + juli + "."); 
+        System.out.println("The Julian date is " + juli + "."); 
     }
-    void main()
+    public static void main(String[] args)
     {
         JulianDay obj = new JulianDay();
         obj.input();

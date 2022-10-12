@@ -33,20 +33,9 @@ public class Backend
 	}
 	BigDecimal getRatio(JSONObject res)
 	{
-		Logger logger = LogManager.getLogger(Backend.class);
-		Configurator.initialize(new DefaultConfiguration());
-		Configurator.setRootLevel(Level.INFO);
-		try
-		{
-			JSONObject price = res.getJSONObject("price");
-			JSONObject latest = price.getJSONObject("last");
-			return latest.getBigDecimal("value");
-		}
-		catch (UnsupportedOperationException e)
-		{
-			logger.error("Incorrect currencies input for conversion.");
-			return BigDecimal.valueOf(0);
-		}
+		JSONObject price = res.getJSONObject("price");
+		JSONObject latest = price.getJSONObject("last");
+		return latest.getBigDecimal("value");
 	}
 	JSONObject getJSON(String from, String to) throws JSGetException, IOException
 	{
@@ -64,10 +53,10 @@ public class Backend
 		HttpResponse<JsonNode> response;
 		try
 		{
-		response = Unirest.get(url)
-			.header("X-RapidAPI-Key", rapidapikey)
-			.header("X-RapidAPI-Host", rapidapihost)
-			.asJson();
+			response = Unirest.get(url)
+				.header("X-RapidAPI-Key", rapidapikey)
+				.header("X-RapidAPI-Host", rapidapihost)
+				.asJson();
 		}
 		catch (UnirestException e)
 		{

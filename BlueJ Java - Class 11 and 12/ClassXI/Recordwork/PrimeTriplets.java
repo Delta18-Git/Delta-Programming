@@ -50,14 +50,14 @@ public class PrimeTriplets
         {
             if(x == 1)
                 continue;
-            if(x == 2)
+            else if(x == 2)
             {
                 str = str + "2" + " ";
                 c++;
             }
-            if(x % 2 == 0)
+            else if(x % 2 == 0)
                 continue;
-            if (isPrime(x))
+            else if (isPrime(x))
             {
                 str = str + x + " ";
                 c++;    
@@ -71,7 +71,7 @@ public class PrimeTriplets
         }
         System.out.println(str);
     }
-    public static void main()
+    public static void main(String[] args)
     {
         PrimeTriplets obj = new PrimeTriplets();
         obj.input();

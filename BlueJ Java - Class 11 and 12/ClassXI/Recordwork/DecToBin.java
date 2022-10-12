@@ -33,7 +33,7 @@ public class DecToBin
     {
         System.out.println("Binary value of " + decimal +  " = " + out);
     }
-    void main()
+    public static void main(String[] args)
     {
         DecToBin obj = new DecToBin();
         obj.input();
