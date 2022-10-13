@@ -28,6 +28,7 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
+import javafx.scene.image.Image;
 import javafx.stage.*;
 import javafx.util.converter.BigDecimalStringConverter;
 
@@ -62,6 +63,7 @@ public class App extends Application {
 		FXMLLoader loader = new FXMLLoader();
 		loader.setLocation(this.getClass().getResource("/GUI.fxml"));
 		TitledPane titlepane = loader.<TitledPane>load();
+		stage.getIcons().add(new Image(this.getClass().getResourceAsStream("/icon.png")));
 		stage.setScene(new Scene(titlepane, 800, 450));
 		stage.setTitle("Currency Converter");
 		stage.show();
