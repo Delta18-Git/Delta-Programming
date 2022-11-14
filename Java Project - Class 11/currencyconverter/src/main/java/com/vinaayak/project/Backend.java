@@ -9,21 +9,9 @@ import kong.unirest.*;
 import kong.unirest.json.JSONObject;
 import java.util.Scanner;
 
-class JSGetException extends Exception
-{
-	public JSGetException(UnirestException exception)
-	{
-		super(exception);
-	}
-	public JSGetException(String s)
-	{
-		super(s);
-	}
-}
-
 public class Backend
 {
-	public BigDecimal convert(String from, String to, BigDecimal input) throws JSGetException, IOException
+	public BigDecimal convert(String from, String to, BigDecimal input) throws UnirestException, IOException
 	{
 		JSONObject js = getJSON(from, to);
 		BigDecimal ratio = getRatio(js);
@@ -37,7 +25,7 @@ public class Backend
 		JSONObject latest = price.getJSONObject("last");
 		return latest.getBigDecimal("value");
 	}
-	JSONObject getJSON(String from, String to) throws JSGetException, IOException
+	JSONObject getJSON(String from, String to) throws UnirestException, IOException
 	{
 		Logger logger = LogManager.getLogger(Backend.class);
 		Configurator.initialize(new DefaultConfiguration());
@@ -61,7 +49,7 @@ public class Backend
 		catch (UnirestException e)
 		{
 			logger.error("Failed to GET data. Connection string was: %s", url);
-			throw new JSGetException(e);
+			throw new UnirestException(e);
 		}
 		return response.getBody().getObject();
 	}

@@ -31,6 +31,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.image.Image;
 import javafx.stage.*;
 import javafx.util.converter.BigDecimalStringConverter;
+import kong.unirest.UnirestException;
 
 public class App extends Application {
 
@@ -107,7 +108,7 @@ public class App extends Application {
 		}
 		try {
 			converted = convertInterface.convert(from.getValue(), to.getValue(), amount);
-		} catch (JSGetException | IOException getException) {
+		} catch (UnirestException | IOException getException) {
 			getException.printStackTrace();
 			alert.setContentText("Failed to GET exchange data.");
 			alert.show();
