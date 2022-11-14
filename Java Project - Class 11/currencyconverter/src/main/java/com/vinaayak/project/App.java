@@ -58,7 +58,12 @@ public class App extends Application {
 
 	Backend convertInterface = new Backend();
 
-    @Override
+
+	/**
+	 * @param stage the top-level container created by JavaFX to hold the application window
+	 * @throws IOException thrown when there is an I/O failure in reading from the FXML definition
+	 */
+	@Override
 	public void start(Stage stage) throws IOException
 	{
 		FXMLLoader loader = new FXMLLoader();
@@ -91,6 +96,10 @@ public class App extends Application {
 		});
 	}
 
+
+	/**
+	 * @param e the Event triggering the method call
+	 */
 	@FXML
 	void calculate(Event e)
 	{
@@ -125,7 +134,11 @@ public class App extends Application {
 		result.setText(convertedString);
 	}
 
-    public static void main(String[] args)
+
+	/**
+	 * @param args holds the arguments passed to the application
+	 */
+	public static void main(String[] args)
 	{
 		try
 		{
