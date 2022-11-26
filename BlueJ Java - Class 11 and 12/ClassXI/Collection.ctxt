@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Collection
+comment0.text=\r\n\ A\ class\ Collection\ accepts\ an\ integer\ array\ of\ 100\ numbers\ and\ the\ following\ methods\ are\ defined\:\r\n\ \r\n\ Collection()\ \=>\ Default\ constructor\r\n\ Collection(int\ x)\ \=>\ Parameterized\ constructor\ which\ assigns\ length\ of\ array\ to\ x\r\n\ void\ input()\ \=>\ Enter\ the\ elements\ of\ array\r\n\ void\ arrange()\ \=>\ Sorts\ array\ using\ standard\ sorting\ techniques\r\n\ Collection\ common(Collection\ )\ \=>\ Finds\ the\ common\ elements\ between\ current\ object\ and\ referenced\ object,and\ returns\ object\ with\ common\ elements.\r\n\ void\ display()\ \=>\ Prints\ all\ elements\ of\ the\ array\r\n\ \r\n\ Data\ Members\:\r\n\ len\ \=>\ length\ of\ array\r\n\ arr[]\ \=>\ integer\ array\ to\ be\ used\r\n\ \r\n\ main()\ is\ required.\r\n\r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (24/11/2022\ CE)\r\n
+comment1.params=
+comment1.target=Collection()
+comment2.params=x
+comment2.target=Collection(int)
+comment3.params=
+comment3.target=void\ input()
+comment4.params=
+comment4.target=void\ arrange()
+comment5.params=coll
+comment5.target=Collection\ common(Collection)
+comment6.params=
+comment6.target=void\ display()
+comment7.params=
+comment7.target=void\ main()
+numComments=8
