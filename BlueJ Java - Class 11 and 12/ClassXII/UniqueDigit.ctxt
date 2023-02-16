@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=UniqueDigit
+comment0.text=\r\n\ Unique\ digit\ integer\ is\ a\ positive\ integer\ (without\ leading\ 0s)\ with\ no\ duplicate\ digits.\ Ex\:\ 7,\ 135,\ 214\ etc.\r\n\ Given\ 2\ positive\ integers,\ n,\ m\ where\ m\ <\ n,\ write\ a\ program\ ti\ deternine\ the\ number\ of\ unique\ digit\ integers\r\n\ between\ m\ to\ n\ (both\ inclusive)\ and\ display\ them,\ The\ input\ contains\ two\ positive\ integers\ m\ &\ n.\r\n\ Assume\ m\ <\ 3000,\ n\ <\ 3000.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n
+comment1.target=boolean\ unique(int)
+comment2.params=m\ n
+comment2.target=void\ check(int,\ int)
+comment3.params=
+comment3.target=void\ start()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
