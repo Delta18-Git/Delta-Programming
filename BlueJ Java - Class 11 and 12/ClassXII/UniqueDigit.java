@@ -21,7 +21,6 @@ public class UniqueDigit
      */
     private boolean unique(int n)
     {
-        boolean unique = true;
         // The `Integer.toString(n)` is converting the integer `n` to a string. The `toCharArray()` is
         // converting the string to a character array.
         char[] digits = Integer.toString(n).toCharArray();
@@ -99,7 +98,7 @@ public class UniqueDigit
         int to = sc.nextInt();
         // The below code is checking if the range of numbers is valid or not. If the range is valid,
         // then the program will continue, else it will print "Invalid range".
-        boolean valid = (from < 3000 && to < 3000 && from < to && from > 0 && to > 0) ? true : false;
+        boolean valid = (from < 3000 && to < 3000 && from < to && from > 0 && to > 0);
         if(valid)
         {
             check(from, to);
