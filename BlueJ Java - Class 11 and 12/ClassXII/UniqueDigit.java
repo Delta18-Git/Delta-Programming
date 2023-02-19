@@ -3,7 +3,7 @@ package ClassXII;
 import java.util.Scanner;
 /**
  * Unique digit integer is a positive integer (without leading 0s) with no duplicate digits. Ex: 7, 135, 214 etc.
- * Given 2 positive integers, n, m where m < n, write a program ti deternine the number of unique digit integers
+ * Given 2 positive integers, n, m where m < n, write a program to deternine the number of unique digit integers
  * between m to n (both inclusive) and display them, The input contains two positive integers m & n.
  * Assume m < 3000, n < 3000.
  *
