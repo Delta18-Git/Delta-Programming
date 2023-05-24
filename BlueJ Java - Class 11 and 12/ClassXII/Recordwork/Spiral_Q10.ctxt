@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Spiral_Q10
+comment0.text=\r\n\ Write\ a\ program\ to\ accept\ a\ 2-D\ array\ and\ display\ the\ elements\ spirally\ (inside\ to\ outside).\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ input()
+comment1.text=\r\n\ It\ takes\ in\ the\ size\ of\ the\ matrix\ and\ the\ elements\ of\ the\ matrix\r\n
+comment2.params=
+comment2.target=void\ spiral()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

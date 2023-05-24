@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ArrayReorder
+comment1.params=arr
+comment1.target=void\ rearrange(int[])
+comment2.params=arr\ a\ b
+comment2.target=void\ swap(int[],\ int,\ int)
+comment3.params=arr
+comment3.target=void\ printArray(int[])
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Matrix_Q25
+comment0.text=\r\n\ Accept\ a\ 2-D\ array,\ perform\ the\ following\:\r\n\ i)\ find\ the\ sum\ of\ the\ diagonal\ elements\r\n\ ii)\ replace\ principle\ diagonal\ with\ 0.\r\n\ iii)\ Replace\ upper\ triangle\ matrix\ and\ replace\ it\ with\ \#\ symbol.\r\n\r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (17/05/2023)\r\n
+comment1.params=
+comment1.target=void\ input()
+comment2.params=
+comment2.target=void\ diagsum()
+comment3.params=
+comment3.target=void\ replacediag()
+comment4.params=
+comment4.target=void\ uppertri()
+comment5.params=
+comment5.target=void\ displayboth()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
