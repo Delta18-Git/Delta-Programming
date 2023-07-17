@@ -161,14 +161,31 @@
 						<manifest>
 							<mainClass>com.vinaayak.project.AppStarter</mainClass>
 						</manifest>
-                        			<manifestEntries>
-                            				<Multi-Release>true</Multi-Release>
-                        			</manifestEntries>
+      	<manifestEntries>
+       	<Multi-Release>true</Multi-Release>
+       </manifestEntries>
 					</archive>
 					<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.1.2</version>
+				<executions>
+								<execution>
+									<?m2e execute onConfiguration?>
+									<goals>
+										<goal>sources</goal>
+										<goal>resolve</goal>
+									</goals>
+									<configuration>
+										<classifier>javadoc</classifier>
+									</configuration>
+									</execution>
+						</executions>
 			</plugin>
 		</plugins>
 	</build>

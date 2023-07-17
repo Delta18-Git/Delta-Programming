@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=LuckyNumbers_Q2
-comment0.text=\r\n\ Write\ a\ program\ to\ find\ the\ Lucky\ Numbers.\r\n\ Ex\:\ 10\r\n\ 1\ 2\ 3\ 4\ 5\ 6\ 7\ 8\ 9\ 10\r\n\ (Starting\ with\ 2nd\ number,\ cut\ all\ alternate\ numbers.)\r\n\ 1\ (2)\ 3\ (4)\ 5\ (6)\ 7\ (8)\ 9\ (10)\r\n\ (Starting\ with\ 3rd\ number,\ cut\ all\ alternate\ numbers.)\r\n\ 1\ (2)\ 3\ (4)\ (5)\ (6)\ 7\ (8)\ 9\ (10)\r\n\ (Starting\ with\ 4th\ number,\ cut\ all\ alternate\ numbers.)\r\n\ 1\ (2)\ 3\ (4)\ (5)\ (6)\ 7\ (8)\ (9)\ (10)\r\n\ (Since\ no\ 5th\ number,\ these\ are\ the\ Lucky\ Numbers.)\r\n\ Program\ 2\r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (3/11/2022)\r\n
+comment0.text=\r\n\ Write\ a\ program\ to\ find\ the\ Lucky\ Numbers.\ Ex\:\ 10\ 1\ 2\ 3\ 4\ 5\ 6\ 7\ 8\ 9\ 10\r\n\ (Starting\ with\ 2nd\ number,\ cut\ all\ alternate\ numbers.)\ \r\n\ 1\ (2)\ 3\ (4)\ 5\ (6)\ 7\ (8)\ 9\ (10)\ \r\n\ (Starting\ with\ 3rd\ number,\ cut\ all\ alternate\ numbers.)\ \r\n\ 1\ (2)\ 3\ (4)\ (5)\ (6)\ 7\ (8)\ 9\ (10)\ \r\n\ (Starting\ with\ 4th\ number,\ cut\ all\ alternate\ numbers.)\ \r\n\ 1\ (2)\ 3\ (4)\ (5)\ (6)\ 7\ (8)\ (9)\ (10)\ \r\n\ (Since\ no\ 5th\ number,\ these\ are\ the\ Lucky\ Numbers.)\ Program\ 2\r\n\ \r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (3/11/2022)\r\n
 comment1.params=
 comment1.target=void\ main()
 numComments=2

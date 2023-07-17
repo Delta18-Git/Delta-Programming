@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=MenuSort_Q18
-comment0.text=\r\n\ Write\ a\ menu\ driven\ program\ to\ apply\ bubble,\ selection\ and\ insertion\ sort\ for\ an\ integer\ array\ and\ a\ string.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Write\ a\ menu\ driven\ program\ to\ apply\ bubble,\ selection\ and\ insertion\ sort\ for\r\n\ an\ integer\ array\ and\ a\ string.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=arr
 comment1.target=int[]\ bubbleSort(int[])
 comment10.params=
