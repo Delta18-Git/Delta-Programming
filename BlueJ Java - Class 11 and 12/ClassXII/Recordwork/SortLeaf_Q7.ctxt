@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=SortLeaf_Q7
-comment0.text=\r\n\ Write\ a\ program\ where\ you\ create\ a\ single\ subscripted\ array\ of\ n\ >\ 0\r\n\ integers.\ Get\ the\ elements\ of\ the\ array\ from\ the\ user.\ Rearrange\ the\ same\r\n\ array\ in\ place\ in\ such\ a\ manner\ that\ the\ greatest\ number\ should\ be\ placed\ in\r\n\ the\ middle,\ to\ its\ right\ second\ greatest,\ on\ the\ left\ side\ if\ the\ greatest\r\n\ third\ greatest\ and\ so\ on.\r\n\r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (11/04/2023)\r\n
+comment0.text=\r\n\ Write\ a\ program\ where\ you\ create\ a\ single\ subscripted\ array\ of\ n\ >\ 0\ integers.\ Get\ the\r\n\ elements\ of\ the\ array\ from\ the\ user.\ Rearrange\ the\ same\ array\ in\ place\ in\ such\ a\ manner\r\n\ that\ the\ greatest\ number\ should\ be\ placed\ in\ the\ middle,\ to\ its\ right\ second\ greatest,\r\n\ on\ the\ left\ side\ if\ the\ greatest\ third\ greatest\ and\ so\ on.\r\n\r\n\ @author\ Vinaayak\ Gopala\ Dasika\r\n\ @version\ 11/4/2023\r\n
 comment1.params=size
 comment1.target=SortLeaf_Q7(int)
-comment1.text=\r\n\ `SortLeaf_Q7(int\ size)`\ is\ a\ constructor\ method\ that\ creates\ an\ instance\ of\r\n\ the\ `SortLeaf_Q7`\ class\ with\ an\ array\ of\ integers\ of\ size\ `size`.\r\n
+comment1.text=\r\n\ `SortLeaf_Q7(int\ size)`\ is\ a\ constructor\ method\ that\ creates\ an\ instance\ of\ the\r\n\ `SortLeaf_Q7`\ class\ with\ an\ array\ of\ integers\ of\ size\ `size`.\r\n
 comment2.params=
 comment2.target=void\ input()
 comment2.text=\r\n\ This\ function\ takes\ input\ from\ the\ user\ for\ an\ array.\r\n
@@ -15,5 +15,5 @@ comment4.target=void\ output()
 comment4.text=\r\n\ The\ function\ outputs\ the\ rearranged\ array\ elements.\r\n
 comment5.params=args
 comment5.target=void\ main(java.lang.String[])
-comment5.text=\r\n\ The\ main\ function\ takes\ user\ input\ for\ the\ length\ of\ an\ array,\ creates\ an\r\n\ object\ of\ the\ SortLeaf_Q7\ class,\ calls\ its\ input,\ sort,\ output,\ and\ close\r\n\ methods.\r\n
+comment5.text=\r\n\ The\ main\ function\ takes\ user\ input\ for\ the\ length\ of\ an\ array,\ creates\ an\ object\ of\ the\r\n\ SortLeaf_Q7\ class,\ calls\ its\ input,\ sort,\ output,\ and\ close\ methods.\r\n
 numComments=6

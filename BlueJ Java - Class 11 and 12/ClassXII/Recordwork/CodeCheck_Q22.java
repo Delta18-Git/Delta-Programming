@@ -10,13 +10,13 @@ import java.util.Scanner;
  */
 public class CodeCheck_Q22 {
 	// This array contains the allowed characters for the code.
-	final static char[] codeChars = { 'A', 'C', 'E', 'G', 'I', 'K' };
+	final static char[] codeChars = {'A', 'C', 'E', 'G', 'I', 'K'};
 	String code = "";
 	int length = 0;
 
 	/**
-	 * The function takes user input for a code and its length, checks if the length matches the code, and
-	 * throws an exception if it doesn't.
+	 * The function takes user input for a code and its length, checks if the length matches
+	 * the code, and throws an exception if it doesn't.
 	 */
 	void inputCode() throws RuntimeException {
 		Scanner sysIn = new Scanner(System.in);
@@ -34,10 +34,11 @@ public class CodeCheck_Q22 {
 	}
 
 	/**
-	 * The function checks the validity of a string by comparing each character in the input string with a
-	 * set of code characters and returns true if all characters are valid.
+	 * The function checks the validity of a string by comparing each character in the input
+	 * string with a set of code characters and returns true if all characters are valid.
 	 * 
-	 * @param input The input parameter is a String that represents the input to be checked for validity.
+	 * @param input The input parameter is a String that represents the input to be checked
+	 *              for validity.
 	 * @return The method is returning a boolean value.
 	 */
 	boolean checkValidity(String input) {

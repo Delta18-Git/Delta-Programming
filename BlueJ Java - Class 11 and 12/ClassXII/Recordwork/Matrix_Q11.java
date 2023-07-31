@@ -26,7 +26,7 @@ public class Matrix_Q11 {
 			for (int j = 0; j < c; j++) {
 				mat[i][j] = sysIn.nextInt();
 			}
-		sysIn.close();
+			sysIn.close();
 		}
 	}
 

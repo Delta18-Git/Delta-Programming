@@ -3,8 +3,8 @@ package ClassXII.Recordwork;
 import java.util.Scanner;
 
 /**
- * Write a program to accept a 2-D array and display the elements spirally
- * (inside to outside).
+ * Write a program to accept a 2-D array and display the elements spirally (inside to
+ * outside).
  *
  * @author Vinaayak Gopala Dasika
  * @version 7/4/2023
@@ -29,13 +29,15 @@ public class Spiral_Q10 {
 		}
 		sysIn.close();
 	}
+
 	void spiral() {
 		int n = matrix.length - 1;
 		int start;
 		int endI = n + 1;
 		if (n % 2 == 0) {
 			start = n / 2;
-		} else {
+		}
+		else {
 			start = (n - 1) / 2;
 		}
 		int row = start;
@@ -48,18 +50,21 @@ public class Spiral_Q10 {
 						System.out.print(matrix[row][col] + " ");
 					for (; col < ncol; col++)
 						System.out.print(matrix[row][col] + " ");
-				} else {
+				}
+				else {
 					int nrow = row - i, ncol = col - i;
 					for (; row > nrow; row--)
 						System.out.print(matrix[row][col] + " ");
 					for (; col > ncol; col--)
 						System.out.print(matrix[row][col] + " ");
 				}
-			} catch (ArrayIndexOutOfBoundsException e) {
+			}
+			catch (ArrayIndexOutOfBoundsException e) {
 				break;
 			}
 		}
 	}
+
 	public static void main(String[] args) {
 		Spiral_Q10 obj = new Spiral_Q10();
 		obj.input();

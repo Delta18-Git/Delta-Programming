@@ -139,10 +139,10 @@ public class StringManipulation_Q17 {
 		System.out.println("PALINDROMES: ");
 		for (int i = 0; i < palindrome.length; i++) {
 			if (palindrome[i]) {
-				System.out.println(word[i]);
+				System.out.println(words[i]);
 			}
 		}
-		System.out.prinltn("Longest word: " + big);
+		System.out.println("Longest word: " + big);
 		System.out.println("Manipulated String: " + out.toString());
 	}
 

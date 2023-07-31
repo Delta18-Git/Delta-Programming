@@ -24,7 +24,7 @@ public class DayOnDate_Q3 {
 	}
 
 	/**
-	 * Using Zeller'sysIn congruence, calulates the day of the week on the entered date.
+	 * Using Zeller's congruence, calulates the day of the week on the entered date.
 	 */
 	void calcday() {
 		if (mnth == 1 || mnth == 2) {

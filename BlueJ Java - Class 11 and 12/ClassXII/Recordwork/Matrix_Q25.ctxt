@@ -1,16 +1,21 @@
 #BlueJ class context
 comment0.target=Matrix_Q25
-comment0.text=\r\n\ Accept\ a\ 2-D\ array,\ perform\ the\ following\:\ i)\ find\ the\ sum\ of\ the\ diagonal\r\n\ elements\ ii)\ replace\ principle\ diagonal\ with\ 0.\ iii)\ Replace\ upper\ triangle\r\n\ matrix\ and\ replace\ it\ with\ \#\ symbol.\r\n\r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (17/05/2023)\r\n
+comment0.text=\r\n\ Accept\ a\ 2-D\ array,\ perform\ the\ following\:\ i)\ find\ the\ sum\ of\ the\ diagonal\ elements\ ii)\r\n\ replace\ principle\ diagonal\ with\ 0.\ iii)\ Replace\ upper\ triangle\ matrix\ and\ replace\ it\r\n\ with\ \#\ symbol.\r\n\r\n\ @author\ Vinaayak\ Gopala\ Dasika\r\n\ @version\ 17/5/2023\r\n
 comment1.params=
 comment1.target=void\ input()
+comment1.text=\r\n\ The\ function\ "input"\ prompts\ the\ user\ to\ enter\ the\ size\ of\ a\ 2-D\ array\ and\ its\r\n\ elements,\ and\ stores\ the\ input\ in\ the\ "matrix"\ array.\r\n
 comment2.params=
 comment2.target=void\ diagsum()
+comment2.text=\r\n\ The\ function\ calculates\ the\ sum\ of\ all\ diagonal\ elements\ in\ a\ square\ matrix.\r\n
 comment3.params=
 comment3.target=void\ replacediag()
+comment3.text=\r\n\ The\ function\ replaces\ the\ diagonal\ elements\ of\ a\ matrix\ with\ zeros.\r\n
 comment4.params=
 comment4.target=void\ uppertri()
+comment4.text=\r\n\ The\ function\ "uppertri"\ prints\ the\ upper\ triangular\ elements\ of\ a\ matrix\ and\ replaces\r\n\ the\ lower\ triangular\ elements\ with\ '\#'\ characters.\r\n
 comment5.params=
 comment5.target=void\ displayboth()
+comment5.text=\r\n\ The\ function\ multiplies\ two\ matrices\ and\ prints\ the\ resulting\ product.\r\n
 comment6.params=args
 comment6.target=void\ main(java.lang.String[])
 numComments=7

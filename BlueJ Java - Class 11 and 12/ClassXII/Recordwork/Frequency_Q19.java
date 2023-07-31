@@ -3,8 +3,8 @@ package ClassXII.Recordwork;
 import java.util.Scanner;
 
 /**
- * Write a program to calculate the frequency of characters and words in a given
- * string, and displays the number of words, vowels, and uppercase letters in the string.
+ * Write a program to calculate the frequency of characters and words in a given string,
+ * and displays the number of words, vowels, and uppercase letters in the string.
  *
  * @author Vinaayak Gopala Dasika
  * @version 21/6/2023

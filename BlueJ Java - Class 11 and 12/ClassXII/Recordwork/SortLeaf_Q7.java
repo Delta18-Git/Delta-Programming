@@ -12,13 +12,9 @@ import java.util.Scanner;
  * @version 11/4/2023
  */
 public class SortLeaf_Q7 {
-	// `int[] arr;` is declaring an instance variable `arr` of type integer array.
-	// This variable will
-	// be used to store the elements of the array that the user inputs.
+	// This variable will be used to store the elements of the array that the user inputs.
 	int[] arr;
-	// `int n;` is declaring an instance variable `n` of type integer. This variable
-	// will be used to
-	// store the length of the array that the user inputs.
+	// This variable will be used to store the length of the array that the user inputs.
 	int n;
 
 	/**
@@ -90,7 +86,9 @@ public class SortLeaf_Q7 {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Enter the length of the array.");
-		SortLeaf_Q7 obj = new SortLeaf_Q7(new Scanner(System.in).nextInt());
+		Scanner sysIn = new Scanner(System.in);
+		SortLeaf_Q7 obj = new SortLeaf_Q7(sysIn.nextInt());
+		sysIn.close();
 		obj.input();
 		obj.sort();
 		obj.output();

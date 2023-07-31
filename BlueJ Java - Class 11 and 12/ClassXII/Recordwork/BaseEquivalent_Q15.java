@@ -1,19 +1,18 @@
-package ClassXII;
+package ClassXII.Recordwork;
 
 import java.util.Scanner;
 
 /**
- * The BaseEquivalent class in Java allows the user to input two numbers and determines if
- * they are equivalent in any base.
+ * <Page 282, Q32>
  *
  * @author Vinaayak Gopala Dasika
  * @version 14/6/2023
  */
-public class BaseEquivalent {
+public class BaseEquivalent_Q15 {
 	int[] num1, num2;
 	String n1, n2;
 
-	BaseEquivalent() {
+	BaseEquivalent_Q15() {
 		num1 = new int[20];
 		num2 = new int[20];
 		n1 = "";
@@ -29,7 +28,6 @@ public class BaseEquivalent {
 		System.out.println("Enter two numbers.");
 		n1 = sysIn.next().toUpperCase();
 		n2 = sysIn.next().toUpperCase();
-		;
 	}
 
 	/**
@@ -87,10 +85,10 @@ public class BaseEquivalent {
 	 * there is a base in which the numbers are equal.
 	 */
 	void calcarray() {
-		for (int i = basecalc(n1); i <= 20; i++) {
+		for (int i = 1; i <= 20; i++) {
 			num1[i - 1] = base_change(n1, i);
 		}
-		for (int i = basecalc(n2); i <= 20; i++) {
+		for (int i = 1; i <= 20; i++) {
 			num2[i - 1] = base_change(n2, i);
 		}
 		boolean flag = false;
@@ -112,7 +110,7 @@ public class BaseEquivalent {
 	}
 
 	public static void main(String[] args) {
-		BaseEquivalent obj = new BaseEquivalent();
+		BaseEquivalent_Q15 obj = new BaseEquivalent_Q15();
 		obj.input();
 		obj.calcarray();
 	}

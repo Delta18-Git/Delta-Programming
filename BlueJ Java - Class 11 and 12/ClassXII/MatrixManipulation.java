@@ -17,11 +17,13 @@ public class MatrixManipulation {
 		M = new int[N][N];
 		c = 0;
 	}
+
 	MatrixManipulation(int size) {
 		N = size;
 		M = new int[N][N];
 		c = 0;
 	}
+
 	static int sizeinput() {
 		System.out.println("Enter size of array between 3 and 8, both inclusive.");
 		int temp = new Scanner(System.in).nextInt();
@@ -34,6 +36,7 @@ public class MatrixManipulation {
 		System.exit(-1);
 		return -1;
 	}
+
 	void matrixinput() {
 		Scanner S = new Scanner(System.in);
 		System.out.println("Enter positive elements of matrix");
@@ -42,7 +45,7 @@ public class MatrixManipulation {
 				int x = S.nextInt();
 				if (x > 0) {
 					M[i][j] = x;
-				} 
+				}
 				else {
 					System.out.println("Negative integer input, please retry.");
 					--j;
@@ -50,10 +53,11 @@ public class MatrixManipulation {
 			}
 		}
 	}
+
 	void printmatrix() {
 		if (c == 0) {
 			System.out.println("ORIGINAL MATRIX");
-		} 
+		}
 		else if (c == 1) {
 			System.out.println("REARRANGED MATRIX");
 		}
@@ -65,6 +69,7 @@ public class MatrixManipulation {
 			System.out.println();
 		}
 	}
+
 	void principlesort() {
 		int[] temp = new int[N];
 		int l = 0;
@@ -91,6 +96,7 @@ public class MatrixManipulation {
 			}
 		}
 	}
+
 	void boundarysum() {
 		int sum = 0;
 		for (int f = 0; f < N; f++) {
@@ -101,6 +107,7 @@ public class MatrixManipulation {
 		}
 		System.out.println("SUM OF BOUNDARY ELEMENTS = " + sum);
 	}
+
 	public static void main(String[] args) {
 		MatrixManipulation obj = new MatrixManipulation(MatrixManipulation.sizeinput());
 		obj.matrixinput();

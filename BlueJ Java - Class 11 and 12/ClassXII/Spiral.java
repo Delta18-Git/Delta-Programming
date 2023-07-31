@@ -3,8 +3,8 @@ package ClassXII;
 import java.util.Scanner;
 
 /**
- * It takes in the size of the matrix and the elements of the matrix and prints
- * the elements of the matrix in a spiral order, only works for 3x3.
+ * It takes in the size of the matrix and the elements of the matrix and prints the
+ * elements of the matrix in a spiral order, only works for 3x3.
  * 
  * @author Vinaayak Gopala Dasika
  * @version 22/02/2023
@@ -26,7 +26,7 @@ public class Spiral {
 			x = S.nextInt();
 			if (x % 2 != 0) {
 				check = false;
-			} 
+			}
 			else {
 				System.out.println("Please enter an odd number.");
 			}
