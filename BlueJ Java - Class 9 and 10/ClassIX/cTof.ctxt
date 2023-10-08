@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=cTof
-comment0.text=\r\n\ Convert\ temperature\ in\ centigrade\ to\ farenheit.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (10/7/2020)\r\n
-comment1.params=temperature_in_centigrade
-comment1.target=void\ main(double)
-numComments=2

@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=seriesProgram10
-comment0.text=\r\n\ Write\ a\ program\ to\ print\ series\ 1,\ -a^2/3\!,\ -a^3/4\!,\ -a^4/5\!\ ...\ n\ terms.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (27/05/2021)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

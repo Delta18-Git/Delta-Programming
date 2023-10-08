@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=HexRecursion_Q29
-comment0.text=\r\n\ Write\ a\ program\ to\ convert\ decimal\ to\ hexadecimal.\r\n\ \r\n\ @author\ Vinaayak\ Gopala\ Dasika\r\n\ @version\ 8/3/2022\r\n
-comment1.params=n
-comment1.target=java.lang.String\ convert(int)
-comment1.text=\r\n\ The\ function\ converts\ a\ decimal\ number\ to\ its\ hexadecimal\ representation.\r\n\ \r\n\ @param\ n\ The\ parameter\ "n"\ is\ an\ integer\ that\ represents\ the\ decimal\ number\ that\ we\r\n\ \ \ \ \ \ \ \ \ \ want\ to\ convert\ to\ hexadecimal.\r\n\ @return\ The\ method\ is\ returning\ a\ string\ representation\ of\ the\ given\ integer\ in\r\n\ \ \ \ \ \ \ \ \ hexadecimal\ format.\r\n
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3

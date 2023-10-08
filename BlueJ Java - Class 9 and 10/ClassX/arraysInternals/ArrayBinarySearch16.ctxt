@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=ArrayBinarySearch16
-comment0.text=\r\n\ Write\ a\ program\ to\ accept\ the\ year\ of\ graduation\ from\ school\ as\ an\ integer\ value\ from\ the\ user.\ \r\n\ Using\ the\ binary\ search\ technique\ on\ the\ sorted\ array\ of\ integers\ given\ below,\ output\ the\ message\ \u201CRecord\ exists\u201D\ if\ the\ value\ input\ is\ located\ in\ the\ array.\ \r\n\ If\ not,\ output\ the\ message\ \u201CRecord\ does\ not\ exist\u201D.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (20/2/2022)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=billDiscount
-comment0.text=\r\n\ Write\ a\ program\ to\ accept\ the\ bill\ amount\ and\ calculate\ the\ discount\ based\ on\ the\ following\ table.\ \ \r\n\r\n\ Bill\ Amount\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Discount\ \r\n\r\n\ Less\ than\ or\ equal\ to\ Rs.\ 1000\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 2%\ of\ price\ \ \r\n\r\n\ More\ than\ Rs.\ 1000\ and\ less\ than\ or\ equal\ to\ Rs.\ 3000\ 10%\ of\ price\ \ \r\n\r\n\ More\ than\ Rs\ 3000\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 15%\ of\ price\ \r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (11/9/2020)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

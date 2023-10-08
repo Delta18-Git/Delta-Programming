@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=decToparts
-comment0.text=\r\n\ To\ convert\ decimal\ nos.\ into\ its\ parts.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=number_to_be_split
-comment1.target=void\ main(double)
-numComments=2

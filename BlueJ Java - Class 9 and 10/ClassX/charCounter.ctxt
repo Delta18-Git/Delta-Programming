@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=charCounter
-comment0.text=\r\n\ Write\ a\ program\ to\ count\ the\ type\ of\ characters\ in\ n\ number\ of\ characters.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (02/09/2021)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

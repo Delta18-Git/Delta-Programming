@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=sumFactors
-comment0.text=\r\n\ A\ class\ to\ find\ the\ sum\ of\ all\ factors\ of\ a\ number.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (11/01/2021)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

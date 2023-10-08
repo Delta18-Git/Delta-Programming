@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=SentenceWordCount19
-comment0.text=\r\n\ Write\ a\ program\ to\ accept\ a\ sentence\ and\ count\ the\ number\ of\ words\ in\ it.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (19/02/2022)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

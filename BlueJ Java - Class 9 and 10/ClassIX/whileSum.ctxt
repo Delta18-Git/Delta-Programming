@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=whileSum
-comment0.text=\r\n\ A\ Class\ to\ find\ the\ sum\ of\ all\ the\ numbers\ entered\ by\ the\ user.\ \r\n\ The\ Program\ should\ executetill\ a\ negative\ number\ is\ entered.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (28/01/2021)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2

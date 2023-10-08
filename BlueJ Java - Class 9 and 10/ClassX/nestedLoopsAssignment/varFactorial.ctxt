@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=varFactorial
-comment0.text=\r\n\ A\ class\ to\ find\ the\ factorials\ of\ 1\ to\ n.\r\n\r\n\ @author\ (Vinaayak\ G\ Dasika)\r\n\ @version\ (5/4/12021\ HE)\r\n
-comment1.params=
-comment1.target=void\ main()
-numComments=2
