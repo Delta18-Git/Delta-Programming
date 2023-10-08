@@ -1,12 +1,12 @@
 #BlueJ class context
 comment0.target=TimeToWords_Q1
-comment0.text=\ \r\n\ <Enter\ question\ here.>\r\n\ \r\n\ @author\ Vinaayak\ Gopala\ Dasika\r\n\ @version\ 1.0\r\n
+comment0.text=\r\n\ <Enter\ question\ here.>\r\n\ \r\n\ @author\ Vinaayak\ Gopala\ Dasika\r\n\ @version\ 1.0\r\n
 comment1.params=
 comment1.target=void\ input()
-comment1.text=\r\n\ The\ function\ "input"\ prompts\ the\ user\ to\ enter\ a\ number\ between\ 1\ and\ 12\ for\ hours\ and\ a\ number\r\n\ between\ 0\ and\ 59\ for\ minutes.\r\n
+comment1.text=\r\n\ The\ function\ "input"\ prompts\ the\ user\ to\ enter\ a\ number\ between\ 1\ and\ 12\ for\ hours\ and\r\n\ a\ number\ between\ 0\ and\ 59\ for\ minutes.\r\n
 comment2.params=
 comment2.target=void\ cal()
-comment2.text=\r\n\ The\ function\ "cal"\ determines\ the\ time\ based\ on\ the\ given\ hour\ and\ minute\ values\ and\ prints\ the\r\n\ corresponding\ time\ statement.\r\n
+comment2.text=\r\n\ The\ function\ "cal"\ determines\ the\ time\ based\ on\ the\ given\ hour\ and\ minute\ values\ and\r\n\ prints\ the\ corresponding\ time\ statement.\r\n
 comment3.params=args
 comment3.target=void\ main(java.lang.String[])
 numComments=4

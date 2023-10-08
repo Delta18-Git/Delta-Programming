@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=MatrixManipulation
-comment0.text=\r\n\ Write\ a\ program\ to\ declare\ a\ square\ matrix\ M[][]\r\n\r\n\ @author\ (Vinaayak\ Gopala\ Dasika)\r\n\ @version\ (22/2/23)\r\n
+comment0.text=\r\n\ Write\ a\ program\ to\ declare\ a\ square\ matrix\ M[][]\r\n\r\n\ @author\ Vinaayak\ Gopala\ Dasika\r\n\ @version\ 22/2/23\r\n
 comment1.params=
 comment1.target=MatrixManipulation()
 comment2.params=size

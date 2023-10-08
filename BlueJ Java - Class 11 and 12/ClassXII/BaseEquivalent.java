@@ -29,7 +29,7 @@ public class BaseEquivalent {
 		System.out.println("Enter two numbers.");
 		n1 = sysIn.next().toUpperCase();
 		n2 = sysIn.next().toUpperCase();
-		;
+		sysIn.close();
 	}
 
 	/**
@@ -53,7 +53,7 @@ public class BaseEquivalent {
 			else {
 				j = (ch - 'A') + 10;
 			}
-			int mult = (int) Math.pow(base, num.length() - i - 1);
+			int mult = (int) Math.pow(base, num.length() - i - 1.0);
 			sum += j * mult;
 		}
 		return sum;
