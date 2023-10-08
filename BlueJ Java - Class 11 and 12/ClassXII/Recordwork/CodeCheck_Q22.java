@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class CodeCheck_Q22 {
 	// This array contains the allowed characters for the code.
-	final static char[] codeChars = {'A', 'C', 'E', 'G', 'I', 'K'};
+final static char[] codeChars = {'A', 'C', 'E', 'G', 'I', 'K'};
 	String code = "";
 	int length = 0;
 

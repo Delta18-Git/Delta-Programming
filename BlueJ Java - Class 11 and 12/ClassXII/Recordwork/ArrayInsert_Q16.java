@@ -13,11 +13,11 @@ public class ArrayInsert_Q16 {
 	int len = Integer.MAX_VALUE;
 	Scanner sysIn = new Scanner(System.in);
 
+	
 	/**
-	 * The function "printArray" prints the elements of an integer array.
-	 * 
-	 * @param array The parameter "array" is an integer array that contains the elements to be
-	 *              printed.
+	 * Prints the elements of an integer array.
+	 *
+	 * @param  array  the array containing the elements to be printed
 	 */
 	void printArray(int[] array) {
 		System.out.println("Array Elements:");
@@ -27,9 +27,10 @@ public class ArrayInsert_Q16 {
 		System.out.println(array[len - 1]);
 	}
 
+	
 	/**
-	 * The function "input" prompts the user to enter the number of elements and then reads in
-	 * the elements into an array.
+	 * Reads user input for the number of elements and the elements themselves.
+	 *
 	 */
 	void input() {
 		System.out.print("Enter number of elements: ");
@@ -41,10 +42,11 @@ public class ArrayInsert_Q16 {
 		sysIn.close();
 	}
 
-	/**
-	 * The function "insertion" allows the user to insert a number at a specified position in
-	 * an array.
-	 */
+	
+    /**
+     * This function performs the insertion operation in an array.
+     *
+     */
 	void insertion() {
 		System.out.println("INSERTION");
 		System.out.print("Enter number to be inserted: ");
@@ -58,9 +60,10 @@ public class ArrayInsert_Q16 {
 		++len;
 	}
 
+	
 	/**
-	 * The "deletion" function allows the user to delete an element from an array either by
-	 * its position or by its value.
+	 * Deletes an element from the array based on the user's choice.
+	 *
 	 */
 	void deletion() {
 		System.out.println("DELETION");

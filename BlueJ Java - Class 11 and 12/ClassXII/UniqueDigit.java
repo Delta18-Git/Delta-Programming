@@ -91,8 +91,7 @@ public class UniqueDigit {
 		System.out.print("n = ");
 		int to = sc.nextInt();
 		// The below code is checking if the range of numbers is valid or not. If the range is
-		// valid,
-		// then the program will continue, else it will print "Invalid range".
+		// valid, then the program will continue, else it will print "Invalid range".
 		boolean valid = (from < 3000 && to < 3000 && from < to && from > 0 && to > 0);
 		if (valid) {
 			check(from, to);

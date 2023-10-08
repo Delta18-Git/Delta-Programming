@@ -14,6 +14,12 @@ public class ArrayMerge_Q12 {
 	int M, N;
 	String[] A, B, C;
 
+	/**
+	 * Checks for duplicates in an array of strings.
+	 *
+	 * @param  arr  the array of strings to check
+	 * @return      true if there are no duplicates, false otherwise
+	 */
 	static boolean checkDuplicate(String[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
@@ -25,6 +31,18 @@ public class ArrayMerge_Q12 {
 		return true;
 	}
 
+	/**
+	 * This function reads input from the user and populates two arrays, A and B.
+	 * It prompts the user to enter the number of people for list A and then prompts
+	 * the user to enter the names of those people. It checks for duplicate names
+	 * in list A and throws a RuntimeException if any duplicates are found. If no
+	 * duplicates are found in list A, it prompts the user to enter the number of
+	 * people for list B and then prompts the user to enter the names of those people.
+	 * It checks for duplicate names in list B and throws a RuntimeException if any
+	 * duplicates are found. If duplicates are found in either list A or list B, it
+	 * prints an error message to the console.
+	 *
+	 */
 	void input() {
 		Scanner sysIn = new Scanner(System.in);
 		System.out.println("LIST A:");
@@ -55,6 +73,10 @@ public class ArrayMerge_Q12 {
 		}
 	}
 
+	/**
+	 * Merge two arrays A and B into array C in ascending order.
+	 * 
+	 */
 	void merge() {
 		C = new String[M + N];
 		for (int i = 0; i < M - 1; i++) {
@@ -99,6 +121,10 @@ public class ArrayMerge_Q12 {
 		}
 	}
 
+	/**
+	 * Displays the arrays A, B, and C.
+	 *
+	 */
 	void display() {
 		System.out.print("Array A: [");
 		for (int i = 0; i < A.length; i++) {
